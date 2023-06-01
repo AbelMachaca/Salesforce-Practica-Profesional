@@ -1,0 +1,30 @@
+form{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  color: white;
+}
+body{
+  background-image:  url("https://winguweb.org/wp-content/uploads/2023/02/fabio-oyXis2kALVg-unsplash.jpg");
+}
+h1{
+  color: white;
+  font-style: normal;
+}
+.enviar{
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 20%;
+  background-color: rgb(32, 71, 96);
+  color: black;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+ 
