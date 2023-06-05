@@ -1,4 +1,4 @@
-form{
+ form{
 	display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,11 +7,16 @@ form{
   color: white;
 }
 body{
-  background-image:  url("https://winguweb.org/wp-content/uploads/2023/02/fabio-oyXis2kALVg-unsplash.jpg");
+  background-image: url(../img/wingu.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1{
   color: white;
   font-style: normal;
+}
+label {
+  color: black;
 }
 .enviar{
   border-radius: 5px;
@@ -27,4 +32,7 @@ h1{
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
 }
- 
+label{
+  font-size: 1.5rem;
+}
+
