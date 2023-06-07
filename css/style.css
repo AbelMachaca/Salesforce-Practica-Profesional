@@ -7,25 +7,34 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 :root {
   --radius: 5px;
 }
 
  form{
-	display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  height: 400px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: none;
-  color: white;
+ 
+  background-color: white;
+  
   border-radius: var(--radius);
-  padding: 30px;
-}
+  padding: 35px ;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+  width: 500px;
+  
+  
+} 
+
+
+div {
+  display: grid;
+  grid-auto-flow: row;
+
+} 
+
 
 h1{
   color: white;
@@ -33,24 +42,30 @@ h1{
 }
 label {
   color: black;
-}
-.enviar{
-  border-radius: 5px;
-  border: none;
-  font-size: 16px;
-  height: auto;
-  margin: 0;
-  outline: 0;
-  padding: 10px;
-  width: 20%;
-  background-color: rgb(32, 71, 96);
-  color: black;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-  margin-bottom: 30px;
-}
-label{
   font-size: 1.5rem;
 }
-input{
-  bacground:none;
+
+input[type="submit"] {
+  background-color: rgb(158, 150, 150);
+  border:15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inputcolor{
+  padding: 7px;
+  
+  border-radius: 10px;
+ /* background-color: rgba(161,174,253,255);
+  border: 2px solid rgba(161,174,253,255);*/
+  
+}
+
+main{
+  margin-top: 50px;
+}
+.inputall{
+display: flex;
+flex-direction: column;
+text-align: left;
 }
