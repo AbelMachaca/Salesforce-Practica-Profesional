@@ -1,71 +1,128 @@
-* {
-  font-family: "Raleway", sans-serif;
-}
 body{
-  background-image: url(../img/fondo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-:root {
-  --radius: 5px;
-}
-
- form{
- 
-  background-color: white;
-  
-  border-radius: var(--radius);
-  padding: 35px ;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
-  width: 500px;
-  
-  
-} 
-
-
-div {
-  display: grid;
-  grid-auto-flow: row;
-
-} 
-
-
-h1{
-  color: white;
-  font-style: normal;
-}
-label {
-  color: black;
-  font-size: 1.5rem;
-}
-
-input[type="submit"] {
-  background-color: rgb(158, 150, 150);
-  border:15px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.inputcolor{
-  padding: 7px;
-  
-  border-radius: 10px;
- /* background-color: rgba(161,174,253,255);
-  border: 2px solid rgba(161,174,253,255);*/
-  
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 main{
-  margin-top: 50px;
+  
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+ 
 }
-.inputall{
-display: flex;
-flex-direction: column;
-text-align: left;
+
+form{
+    width: 600px;
+    background-image: linear-gradient(#2C7DA0, #A7CFE6);
+    background-color: #2C7DA0;
+    
+  color: white;
+  border-radius: 5px;
+ 
+  padding: 40px;
+  
+  box-shadow:5px 5px 5px 5px #ababab;
+  opacity: .8;
+  height: 850px;
+  
+  
+  
+
+
+
+
+  
 }
+
+
+
+
+input[type="submit"] {
+    background-color: #013A63;
+    border:15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    
+  } 
+
+  
+  
+  
+  h1{
+    
+   
+    font-style: normal;
+    text-align: center;
+
+   
+  }
+   label {
+    
+    font-size: 16px;
+    padding-top: 5px;
+  } 
+  input{
+    margin:  0;
+    height: 40px;
+    
+  }
+  .contenedorli{
+ 
+   
+    margin-bottom: 100px;
+    
+  }
+  img{
+    width: 130px;
+    height: 100%;
+    
+  }
+  .cajatitulo{
+    display: flex;
+   
+    
+    margin-left: 30px;
+     height: 100px; 
+     margin-top: 6px;
+    
+    
+  
+    
+  }
+  .cajah1{
+    margin: auto;
+  
+    
+    margin-right: 20px;
+  }
+  .imagen1{
+   
+    align-self: flex-start;
+     
+    
+  }
+ 
+  
+   .inputcolor{
+    padding: 7px;
+    
+    border-radius: 10px;
+  
+    
+  } 
+  
+  
+  .inputall{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  }
+
